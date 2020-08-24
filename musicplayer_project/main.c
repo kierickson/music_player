@@ -47,7 +47,7 @@
 #define Q 12500
 #define I 6250 //eight
 
-struct dt{
+/*struct dt{
    int year;
    int month;
    int day;
@@ -55,7 +55,7 @@ struct dt{
    int minute;
    int second;
    //int subsecond;
-};
+};*/
 
 struct Note{
    int freq;
@@ -193,7 +193,7 @@ int get_key(void){
 	TCCR0 = 0;
  }*/
 
-
+/*
 int checkmonth(int m, int y){
    int leaptable[] = {0, 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
    int mtable[] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
