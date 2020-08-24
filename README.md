@@ -1,5 +1,5 @@
 # music_player
-C program using ATMega32 micro controller to run a simple music player.
+C program using ATMega32 micro controller to run a simple music player. (Project for UCI COMPSCI 145: Embedded Software)
 
 --avr.c: contains avr_wait function used for timing
 --lcd.c: contains pre-provided lcd functions to initialize and write to display
